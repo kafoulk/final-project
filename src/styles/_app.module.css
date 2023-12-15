@@ -1,0 +1,18 @@
+.menuContainer {
+    width:100%;
+    position:fixed;
+    justify-content:space-between;
+    display:flex;
+    margin:0 auto;
+  }
+  
+  .menuItem {
+    color:blue;
+    position:relative;
+  
+  }
+  .logo {
+    position:fixed;
+    right:50px;
+  
+  }

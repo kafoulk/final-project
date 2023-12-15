@@ -1,0 +1,56 @@
+.contactForm {
+    display:flex;
+    width:100%;
+    margin:0 auto;
+    justify-content:center;
+    align-items:center;
+    min-width:100vh;
+}
+
+.form {
+    padding: 45px 0;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.formField label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.formField input {
+    font-size: 24px;
+    height: 40px;
+    width: 40%;
+    padding: 4px;
+}
+.response {
+    display:flex;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    justify-content:center;
+    align-items:center;
+    min-width:100vh;
+    align-content:center;
+    padding-top:50px;
+    
+}
+
+.responseTwo {
+    display:flex;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    justify-content:center;
+    align-items:center;
+    min-width:100vh;
+    align-content:center;
+    padding-top:50px;
+    
+}
