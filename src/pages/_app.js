@@ -2,7 +2,7 @@ import React from 'react';
 import 'semantic-ui-css/semantic.css';
 import { Menu, Icon, Image } from 'semantic-ui-react';
 import Link from 'next/link';
-import { AppProvider } from './useAppState'
+import { AppProvider } from '../useHooks/useAppState'
 import styles from '@/styles/globals.css';
 
 

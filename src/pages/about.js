@@ -1,5 +1,5 @@
 import React from 'react';
-import useAppState from './useAppState';
+import useAppState from '../useHooks/useAppState';
 import { Grid, Image } from 'semantic-ui-react';
 import styles from '@/styles/About.module.css';
 

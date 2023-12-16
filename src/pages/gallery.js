@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import useAppState from './useAppState';
+import useAppState from '../useHooks/useAppState';
 import { Reveal, Image, Grid, Header } from 'semantic-ui-react';
-import ArtImage from './components/ArtImage';
+import ArtImage from '../components/ArtImage';
 
 function Gallery() {
   const appState = useAppState();
