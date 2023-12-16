@@ -15,7 +15,7 @@ export default function Contact() {
         e.preventDefault();
     
         if (fullName !== '' && email !== '') {
-            router.push('/contact/success');
+            router.push('/contact/successful');
         } else {
             router.push('/contact/unsuccessful');
         }
