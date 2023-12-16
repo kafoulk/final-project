@@ -1,6 +1,6 @@
 import React from 'react';
 import 'semantic-ui-css/semantic.css';
-import { Menu, Icon, Image } from 'semantic-ui-react';
+import { Menu, Icon,} from 'semantic-ui-react';
 import Link from 'next/link';
 import { AppProvider } from '../useHooks/useAppState'
 import styles from '@/styles/globals.css';
@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }) {
         </div> */}
       </Menu>
       <div>
-          <Image
+          <img
             src='/randomlogo.png'
             alt='Random Logo'
             width={100}
