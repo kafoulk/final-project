@@ -45,9 +45,11 @@ export default function App({ Component, pageProps }) {
             alt='Random Logo'
             width={100}
             height={80}
-            padding={50}
             // priority="true"
-            className={styles.logo}  as={Link} href='/'
+            className={styles.logo}  
+            as={Link} 
+            href='/'
+            loading='eager'
             />
             
         

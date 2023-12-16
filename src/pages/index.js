@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link';
+import Image from 'next/image';
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import useAppState from '../useHooks/useAppState';
@@ -18,14 +19,14 @@ export default function Home() {
 
         <div className={styles.center}>
           <h1>WWW Art Collections</h1>
-          <Image
-            className={styles.logo}
-            src='/../../image423.jpg'
+          <img
+            src='/image423.jpg'
             alt="starry night"
             width={800}
             height={600}
             border-radius='300px'
             priority='true'
+            
           />
         </div>
 
