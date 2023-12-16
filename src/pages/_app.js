@@ -41,11 +41,11 @@ export default function App({ Component, pageProps }) {
       </Menu>
       <div>
           <Image
-            src='../../randomlogo.png'
+            src='/randomlogo.png'
             alt='Random Logo'
             width={100}
             height={80}
-            // priority="true"
+            priority="true"
             className={styles.logo}  
             as={Link} 
             href='/'
